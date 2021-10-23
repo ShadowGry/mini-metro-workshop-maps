@@ -1,0 +1,611 @@
+{
+	"id": "shadow_gry/perth",
+	"customName": "Perth",
+	"customDescription": "Connect the suburbs of the world's most isolated capital city across the Swan River.",
+	"customCountryName": "Australia",
+	"crossingStyle": "Bridge",
+	"lineCount": 5,
+	"audioLoadoutId": "auckland",
+	
+	"theme": "Transperth",
+	
+	"obstacles": [
+		{
+			"note": "the background",
+			"points": [
+				[1600, 3580],
+				[1600, -850],
+				[-1180, -850],
+				[-1180, 3580]
+			],
+			"visual": true,
+			"inverted": true,
+			"decoration": true,
+			"inPreview": false,
+			"cornerRadius": -1.0
+		},
+		{
+			"note": "the Swan River and Indian Ocean",
+			"points": [
+                [1020, 790],
+				[530, 300],
+				[460, 300],
+				[170, 10],
+				[-40, 10],
+				[-40, -140],
+				[-360, -140],
+				[-593, -373],
+				[-675, -292],
+				[-775, -393],
+				[-1030, -393],
+				[-1030, -850],
+				[-4500, -850],
+				[-4500, 6020],
+				[-3610, 6020],
+				[-1170, 3580],
+				[-1170, 1475],
+				[-1030, 1335],
+				[-1030, -360],
+				[-815, -360],
+				[-685, -230],
+				[-685, -115],
+				[-560, 10],
+				[-460, -90],
+				[-250, 120],
+				[40, 120],
+				[40, 165],
+				[85, 165],
+				[85, 120],
+				[170, 120],
+				[405, 355],
+				[520, 355],
+				[760, 595],
+				[795, 595],
+				[990, 790]
+            ],
+			"visual": true,
+			"inverted": false,
+			"decoration": false,
+			"inPreview": true,
+			"cornerRadius": 10.0
+		}
+	],
+	
+	"obstacleOptions": {
+		"requireTunnelInsideObstacle": true,
+		"creativeStationsInsideObstacle": false
+	},
+	
+	"origin": [0, 0],
+	"zoom": {
+		"start": 0.9,
+		"end": 0.5,
+		"delay": 1,
+		"duration": 65,
+		"earlyZoom": 0.5,
+		"lateZoom": 0.85
+	},
+	"startArea": {
+		"rightBottom": [-0.05, 0.4],
+		"leftTop": [-0.05, 0.4]
+	},
+	
+	"cityAreas": [
+		{
+			"label": "Perth CBD",
+			"paths": [
+				{
+					"points": [
+						[388, 470],
+						[388, 395],
+						[153, 160],
+						[125, 160],
+						[125, 205],
+						[-257, 205],
+						[-257, 470]
+					],
+				},
+			],
+			"density": 0.95,
+			"stationSpawns": [
+				{"type": "CIRCLE", "weight": 1.0, "maximum": -1, "activeDay": -1},
+				{"type": "TRIANGLE", "weight": 0.6, "maximum": -1, "activeDay": -1},
+				{"type": "SQUARE", "weight": 0.2, "maximum": 3, "activeDay": -1}
+			]
+		},
+		{
+			"label": "East Perth",
+			"paths": [
+				{
+					"points": [
+						[696, 595],
+						[496, 395],
+						[400, 395],
+						[400, 595]
+					],
+				},
+				{
+					"points": [
+						[1150, 595],
+						[1150, 100],
+						[699, 100],
+						[539, 260],
+						[547, 260],
+						[882, 595]
+					],
+				}
+			],
+			"density": 0.8,
+			"stationSpawns": [
+				{"type": "CIRCLE", "weight": 1.0, "maximum": -1, "activeDay": 3},
+				{"type": "TRIANGLE", "weight": 0.6, "maximum": -1, "activeDay": 3},
+			]
+		},
+		{
+			"label": "Welshpool",
+			"paths": [
+				{
+					"points": [
+						[1150, 90],
+						[1150, -260],
+						[508, -260],
+						[508, -101],
+						[699, 90]
+					],
+				},
+			],
+			"density": 0.8,
+			"stationSpawns": [
+				{"type": "CIRCLE", "weight": 1.0, "maximum": -1, "activeDay": 22},
+				{"type": "SPECIAL", "weight": 0.2, "maximum": 2, "activeDay": 22}
+			],
+			"countSpecialsTogether": true
+		},
+		{
+			"label": "Victoria Park",
+			"paths": [
+				{
+					"points": [
+						[690, 95],
+						[498, -97],
+						[498, -260],
+						[187, -260],
+						[187, -30],
+						[477, 260],
+						[525, 260]
+					],
+				},
+			],
+			"density": 0.8,
+			"stationSpawns": [
+				{"type": "CIRCLE", "weight": 1.0, "maximum": -1, "activeDay": 3},
+				{"type": "TRIANGLE", "weight": 0.4, "maximum": -1, "activeDay": 3},
+				{"type": "SPECIAL", "weight": 0.2, "maximum": 1, "activeDay": 3},
+			],
+			"countSpecialsTogether": true
+		},
+		{
+			"label": "South Perth",
+			"paths": [
+				{
+					"points": [
+						[175, -30],
+						[175, -510],
+						[-588, -510],
+						[-588, -425],
+						[-343, -180],
+						[0, -180],
+						[0, -30]
+					],
+				},
+			],
+			"density": 0.8,
+			"stationSpawns": [
+				{"type": "CIRCLE", "weight": 1.0, "maximum": -1, "activeDay": -1},
+				{"type": "CROSS", "weight": 0.1, "maximum": 1, "activeDay": 1},
+			]
+		},
+		{
+			"label": "Fremantle",
+			"paths": [
+				{
+					"points": [
+						[-598, -425],
+						[-598, -510],
+						[-990, -510],
+						[-990, -433],
+						[-758, -433],
+						[-674, -349]
+					],
+				},
+				{
+					"points": [
+						[-725, -108],
+						[-725, -213],
+						[-832, -320],
+						[-990, -320],
+						[-990, -108]
+					],
+				}
+			],
+			"density": 1.0,
+			"stationSpawns": [
+				{"type": "CIRCLE", "weight": 1.0, "maximum": 2, "activeDay": 22},
+				{"type": "TRIANGLE", "weight": 0.7, "maximum": 1, "activeDay": 22},
+				{"type": "SPECIAL", "weight": 1.0, "maximum": 1, "activeDay": 22}
+			],
+			"countSpecialsTogether": true
+		},
+		{
+			"label": "Swanbourne",
+			"paths": [
+				{
+					"points": [
+						[-565, 470],
+						[-565, 62],
+						[-725, -98],
+						[-990, -98],
+						[-990, 200],
+						[-720, 470]
+					],
+				},
+			],
+			"density": 0.85,
+			"stationSpawns": [
+				{"type": "CIRCLE", "weight": 1.0, "maximum": -1, "activeDay": 8},
+				{"type": "SPECIAL", "weight": 0.2, "maximum": 1, "activeDay": 8}
+			],
+			"countSpecialsTogether": true
+		},
+		{
+			"label": "North and West Perth",
+			"paths": [
+				{
+					"points": [
+						[388, 595],
+						[388, 480],
+						[-267, 480],
+						[-267, 160],
+						[-460, -33],
+						[-555, 62],
+						[-555, 595]
+					],
+				},
+			],
+			"density": 0.85,
+			"stationSpawns": [
+				{"type": "CIRCLE", "weight": 1.0, "maximum": -1, "activeDay": 2},
+				{"type": "TRIANGLE", "weight": 0.4, "maximum": -1, "activeDay": 2},
+				{"type": "SQUARE", "weight": 0.2, "maximum": -1, "activeDay": 2}
+			]
+		}
+	],
+	"debugShowCityAreas": false,
+	
+	"stationSpawns": {
+		"schedule": [
+			{
+				"numDays": 5,
+				"randomness": 0.35,
+				"types": [
+					"CIRCLE",
+					"CIRCLE",
+					"TRIANGLE"
+				]
+			},
+			{
+				"numDays": 6,
+				"randomness": 0.35,
+				"types": [
+					"CIRCLE",
+					"TRIANGLE",
+					"SQUARE"
+				]
+			},
+			{
+				"numDays": 7,
+				"randomness": 0.35,
+				"types": [
+					"CIRCLE",
+					"CIRCLE",
+					"TRIANGLE",
+					"SPECIAL"
+				]
+			},
+		],
+		"cooldown": 0,
+		"special": [
+			"CROSS",
+			"DIAMOND",
+			"EGG",
+			"GEM",
+			"PENTAGON",
+			"STAR",
+			"WEDGE"
+		]
+	},
+	"passengerSpawnScale": 0.8,
+	
+	"stationCapacity": 6,
+	"interchangeCapacity": 18,
+	"upgrades": {
+		"initial": [
+			"Line",
+			"Line",
+			"Line",
+			"Locomotive",
+			"Locomotive",
+			"Locomotive",
+			"Crossing",
+			"Crossing"
+		],
+		"numOptions": [1, 2],
+		"unlocks": [
+			[
+				{
+					"type": "Locomotive",
+					"max": -1,
+					"count": 1,
+					"weight": 1.0,
+					"week": 0
+				}
+			],
+			[
+				{
+					"type": "Locomotive",
+					"max": -1,
+					"count": 1,
+					"weight": 0.3,
+					"week": 0
+				},
+				{
+					"type": "Line",
+					"max": 2,
+					"count": 1,
+					"weight": 0.8,
+					"week": 0
+				},
+				{
+					"type": "Carriage",
+					"max": -1,
+					"count": 1,
+					"weight": 0.5,
+					"week": 0
+				},
+				{
+					"type": "Crossing",
+					"max": 2,
+					"count": 2,
+					"weight": 0.3,
+					"week": 0
+				},
+				{
+					"type": "Interchange",
+					"max": 2,
+					"count": 1,
+					"weight": 0.3,
+					"week": 2
+				}
+			]
+		]
+	},
+	
+	"trainDefinition": "default",
+	
+	"stations": [
+		{
+			"tag": "start-circle",
+			"type": "circle"
+		},
+		{
+			"tag": "start-triangle",
+			"type": "triangle"
+		},
+		{
+			"tag": "start-square",
+			"type": "square",
+		}
+	],
+	
+	"lines": [
+		{
+			"maxTrains": 6,
+			"allowedTrains": ["Locomotive", "Carriage", "Crossing"]
+		},
+		{
+			"maxTrains": 6,
+			"allowedTrains": ["Locomotive", "Carriage", "Crossing"]
+		},
+		{
+			"maxTrains": 6,
+			"allowedTrains": ["Locomotive", "Carriage", "Crossing"]
+		},
+		{
+			"maxTrains": 6,
+			"allowedTrains": ["Locomotive", "Carriage", "Crossing"]
+		},
+		{
+			"maxTrains": 6,
+			"allowedTrains": ["Locomotive", "Carriage", "Crossing"]
+		}
+	],
+	
+	"transitions": [
+		{
+			"points": [
+				[-7000, 200],
+				[0, 0]
+			],
+			"id": "menu-game"
+		},
+		{
+			"points": [
+				[-7000, 200],
+				[0, 0]
+			],
+			"id": "menu-pause"
+		}
+	],
+	
+	"preview": {
+		"window": {
+			"position": [-670, -250],
+			"size": 820,
+		},
+		
+		"stations": [
+			{
+				"tag": "Perth",
+				"type": "square",
+				"position": [0, 300],
+				"ghost": false,
+				"interchange": false
+			},
+			{
+				"tag": "Leederville",
+				"type": "triangle",
+				"position": [-150, 500],
+				"ghost": false,
+				"interchange": false
+			},
+			{
+				"tag": "Elizabeth-Quay",
+				"type": "square",
+				"position": [0, 160],
+				"ghost": false,
+				"interchange": false
+			},
+			{
+				"tag": "Canning-Bridge",
+				"type": "circle",
+				"position": [0, -180],
+				"ghost": false,
+				"interchange": false
+			},
+			{
+				"tag": "Subicao",
+				"type": "circle",
+				"position": [-330, 300],
+				"ghost": false,
+				"interchange": false
+			},
+			{
+				"tag": "Loch-Street",
+				"type": "circle",
+				"position": [-570, 170],
+				"ghost": false,
+				"interchange": false
+			}
+		],
+		"lines": [
+			{
+				"index": 2,
+				"links": [
+					{
+						"station": "Leederville",
+						"stops": [
+							{
+								"direction": "SOUTHEAST",
+								"platform": 0
+							}
+						]
+					},
+					{
+						"station": "Perth",
+						"stops": [
+							{
+								"direction": "NORTH",
+								"platform": -1
+							},
+							{
+								"direction": "SOUTH",
+								"platform": 1
+							}
+						]
+					},
+					{
+						"station": "Elizabeth-Quay",
+						"stops" : [
+							{
+								"direction": "NORTH",
+								"platform": -1
+							}
+						]
+					}
+				]
+			},
+			{
+				"index": 1,
+				"links": [
+					{
+						"station": "Perth",
+						"stops": [
+							{
+								"direction": "WEST",
+								"platform": 0
+							}
+						]
+					},
+					{
+						"station": "Subicao",
+						"stops": [
+							{
+								"direction": "EAST",
+								"platform": 0
+							},
+							{
+								"direction": "WEST",
+								"platform": 0
+							}
+						]
+					},
+					{
+						"station": "Loch-Street",
+						"stops" : [
+							{
+								"direction": "NORTHEAST",
+								"platform": 0
+							}
+						]
+					}
+				]
+			},
+			{
+				"index": 3,
+				"links": [
+					{
+						"station": "Perth",
+						"stops": [
+							{
+								"direction": "SOUTH",
+								"platform": 0
+							}
+						]
+					},
+					{
+						"station": "Elizabeth-Quay",
+						"stops": [
+							{
+								"direction": "NORTH",
+								"platform": 0
+							},
+							{
+								"direction": "SOUTH",
+								"platform": 0
+							}
+						]
+					},
+					{
+						"station": "Canning-Bridge",
+						"stops" : [
+							{
+								"direction": "NORTH",
+								"platform": 0
+							}
+						]
+					}
+				]
+			}
+		]
+	}
+}

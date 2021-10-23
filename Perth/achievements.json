@@ -1,0 +1,30 @@
+{
+	"achievements": [
+		{
+			"id": "perth-1",
+			"city": "shadow_gry/perth",
+			"difficultyPriority": 0,
+			"type": "Score",
+			"score": 500,
+			"customDescription": "Deliver 500 passengers in Perth.",
+			"icon": "passenger",
+			"restrictions": []
+		},
+		{
+			"id": "perth-2",
+			"city": "shadow_gry/perth",
+			"difficultyPriority": 1,
+			"type": "Score",
+			"score": 1500,
+			"customDescription": "Deliver 1500 passengers in Perth using no loops.",
+			"icon": "line",
+			"restrictions": [
+				{
+					"max": 0,
+					"type": "Loop",
+					"scope": "Line"
+				}
+			]
+		}
+	]
+}
