@@ -1,5 +1,7 @@
 Custom cities for *Mini Metro* by Dinosaur Polo Club. Currently only contains a single city, Perth.
 
+This mod is released under the GNU GPL-3.0 License. See LICENSE for more details.
+
 ## Cities
 ### Perth
 ![Perth](images/day2.jpg)
