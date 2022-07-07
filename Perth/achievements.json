@@ -2,7 +2,7 @@
 	"achievements": [
 		{
 			"id": "perth-1",
-			"city": "shadow_gry/perth",
+			"city": "shadowgry/perth",
 			"difficultyPriority": 0,
 			"type": "Score",
 			"score": 500,
@@ -12,7 +12,7 @@
 		},
 		{
 			"id": "perth-2",
-			"city": "shadow_gry/perth",
+			"city": "shadowgry/perth",
 			"difficultyPriority": 1,
 			"type": "Score",
 			"score": 1500,
