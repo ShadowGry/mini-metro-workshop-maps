@@ -483,9 +483,9 @@
 				"interchange": false
 			},
 			{
-				"tag": "Subicao",
+				"tag": "Subiaco",
 				"type": "circle",
-				"position": [-330, 300],
+				"position": [-260, 300],
 				"ghost": false,
 				"interchange": false
 			},
