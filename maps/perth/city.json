@@ -6,9 +6,9 @@
 	"crossingStyle": "Bridge",
 	"lineCount": 5,
 	"audioLoadoutId": "auckland",
-	
+
 	"theme": "Transperth",
-	
+
 	"obstacles": [
 		{
 			"note": "the background",
@@ -70,12 +70,12 @@
 			"cornerRadius": 10.0
 		}
 	],
-	
+
 	"obstacleOptions": {
 		"requireTunnelInsideObstacle": true,
 		"creativeStationsInsideObstacle": false
 	},
-	
+
 	"origin": [0, 0],
 	"zoom": {
 		"start": 0.9,
@@ -89,7 +89,7 @@
 		"rightBottom": [-0.05, 0.4],
 		"leftTop": [-0.05, 0.4]
 	},
-	
+
 	"cityAreas": [
 		{
 			"label": "Perth CBD",
@@ -281,7 +281,7 @@
 		}
 	],
 	"debugShowCityAreas": false,
-	
+
 	"stationSpawns": {
 		"schedule": [
 			{
@@ -325,7 +325,7 @@
 		]
 	},
 	"passengerSpawnScale": 0.8,
-	
+
 	"stationCapacity": 6,
 	"interchangeCapacity": 18,
 	"upgrades": {
@@ -389,9 +389,9 @@
 			]
 		]
 	},
-	
+
 	"trainDefinition": "default",
-	
+
 	"stations": [
 		{
 			"tag": "start-circle",
@@ -406,7 +406,7 @@
 			"type": "square"
 		}
 	],
-	
+
 	"lines": [
 		{
 			"maxTrains": 6,
@@ -429,7 +429,7 @@
 			"allowedTrains": ["Locomotive", "Carriage", "Crossing"]
 		}
 	],
-	
+
 	"transitions": [
 		{
 			"points": [
@@ -446,13 +446,13 @@
 			"id": "menu-pause"
 		}
 	],
-	
+
 	"preview": {
 		"window": {
 			"position": [-670, -250],
 			"size": 820
 		},
-		
+
 		"stations": [
 			{
 				"tag": "Perth",
