@@ -103,8 +103,8 @@
 						[125, 205],
 						[-257, 205],
 						[-257, 470]
-					],
-				},
+					]
+				}
 			],
 			"density": 0.95,
 			"stationSpawns": [
@@ -122,7 +122,7 @@
 						[496, 395],
 						[400, 395],
 						[400, 595]
-					],
+					]
 				},
 				{
 					"points": [
@@ -132,13 +132,13 @@
 						[539, 260],
 						[547, 260],
 						[882, 595]
-					],
+					]
 				}
 			],
 			"density": 0.8,
 			"stationSpawns": [
 				{"type": "CIRCLE", "weight": 1.0, "maximum": -1, "activeDay": 3},
-				{"type": "TRIANGLE", "weight": 0.6, "maximum": -1, "activeDay": 3},
+				{"type": "TRIANGLE", "weight": 0.6, "maximum": -1, "activeDay": 3}
 			]
 		},
 		{
@@ -151,8 +151,8 @@
 						[508, -260],
 						[508, -101],
 						[699, 90]
-					],
-				},
+					]
+				}
 			],
 			"density": 0.8,
 			"stationSpawns": [
@@ -173,14 +173,14 @@
 						[187, -30],
 						[477, 260],
 						[525, 260]
-					],
-				},
+					]
+				}
 			],
 			"density": 0.8,
 			"stationSpawns": [
 				{"type": "CIRCLE", "weight": 1.0, "maximum": -1, "activeDay": 3},
 				{"type": "TRIANGLE", "weight": 0.4, "maximum": -1, "activeDay": 3},
-				{"type": "SPECIAL", "weight": 0.2, "maximum": 1, "activeDay": 3},
+				{"type": "SPECIAL", "weight": 0.2, "maximum": 1, "activeDay": 3}
 			],
 			"countSpecialsTogether": true
 		},
@@ -196,13 +196,13 @@
 						[-343, -180],
 						[0, -180],
 						[0, -30]
-					],
-				},
+					]
+				}
 			],
 			"density": 0.8,
 			"stationSpawns": [
 				{"type": "CIRCLE", "weight": 1.0, "maximum": -1, "activeDay": -1},
-				{"type": "CROSS", "weight": 0.1, "maximum": 1, "activeDay": 1},
+				{"type": "CROSS", "weight": 0.1, "maximum": 1, "activeDay": 1}
 			]
 		},
 		{
@@ -216,7 +216,7 @@
 						[-990, -433],
 						[-758, -433],
 						[-674, -349]
-					],
+					]
 				},
 				{
 					"points": [
@@ -225,7 +225,7 @@
 						[-832, -320],
 						[-990, -320],
 						[-990, -108]
-					],
+					]
 				}
 			],
 			"density": 1.0,
@@ -247,8 +247,8 @@
 						[-990, -98],
 						[-990, 200],
 						[-720, 470]
-					],
-				},
+					]
+				}
 			],
 			"density": 0.85,
 			"stationSpawns": [
@@ -269,8 +269,8 @@
 						[-460, -33],
 						[-555, 62],
 						[-555, 595]
-					],
-				},
+					]
+				}
 			],
 			"density": 0.85,
 			"stationSpawns": [
@@ -311,7 +311,7 @@
 					"TRIANGLE",
 					"SPECIAL"
 				]
-			},
+			}
 		],
 		"cooldown": 0,
 		"special": [
@@ -403,7 +403,7 @@
 		},
 		{
 			"tag": "start-square",
-			"type": "square",
+			"type": "square"
 		}
 	],
 	
@@ -450,7 +450,7 @@
 	"preview": {
 		"window": {
 			"position": [-670, -250],
-			"size": 820,
+			"size": 820
 		},
 		
 		"stations": [
