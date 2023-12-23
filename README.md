@@ -4,7 +4,7 @@ This mod is released under the GNU GPL-3.0 License. See LICENSE for more details
 
 ## Cities
 ### Perth
-![Perth](images/day2.jpg)
+![Perth](https://drive.google.com/uc?export=view&id=1Ns_8HLQZYnT6HpET-CiNxBVeCRq57Bfj)
 Connect the suburbs of the world's most isolated capital city across the Swan River.
 
 Includes 2 achievements:

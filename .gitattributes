@@ -1,0 +1,5 @@
+# Set LF as the default.
+* text eol=lf
+
+# Files that should not be modified.
+*.png binary
