@@ -32,12 +32,12 @@
 		"outlineWidth": 6.0
 	},
 	"lineColors": [
-		{"day": [253, 179, 20], "note": "Armadale/Thornlie Line"},
-		{"day": [1, 87, 150], "note": "Fremantle Line"},
-		{"day": [138, 149, 29], "note": "Joondalup Line"},
-		{"day": [228, 112, 28], "note": "Mandurah Line"},
-		{"day": [158, 1, 82], "note": "Midland Line"},
-		{"day": [0, 130, 164], "note": "Airport Line"},
-		{"day": [209, 34, 41], "note": "Ellenbrook Line"}
+		{"day": [78, 200, 179], "note": "Airport Line"},
+		{"day": [255, 166, 45], "note": "Armadale Line"},
+		{"day": [237, 49, 35], "note": "Ellenbrook Line"},
+		{"day": [1, 88, 171], "note": "Fremantle Line"},
+		{"day": [227, 91, 33], "note": "Mandurah Line"},
+		{"day": [156, 33, 73], "note": "Midland Line"},
+		{"day": [145, 150, 53], "note": "Yanchep Line"}
 	]
 }
