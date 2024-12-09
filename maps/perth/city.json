@@ -4,7 +4,7 @@
 	"customDescription": "Connect the suburbs of the world's most isolated capital city across the Swan River.",
 	"customCountryName": "Australia",
 	"crossingStyle": "Bridge",
-	"lineCount": 5,
+	"lineCount": 7,
 	"audioLoadoutId": "auckland",
 
 	"theme": "Transperth",
@@ -360,7 +360,7 @@
 				},
 				{
 					"type": "Line",
-					"max": 2,
+					"max": 4,
 					"count": 1,
 					"weight": 0.8,
 					"week": 0
