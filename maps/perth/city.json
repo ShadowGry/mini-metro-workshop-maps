@@ -499,7 +499,7 @@
 		],
 		"lines": [
 			{
-				"index": 2,
+				"index": 6,
 				"links": [
 					{
 						"station": "Leederville",
@@ -535,7 +535,7 @@
 				]
 			},
 			{
-				"index": 1,
+				"index": 3,
 				"links": [
 					{
 						"station": "Perth",
@@ -571,7 +571,7 @@
 				]
 			},
 			{
-				"index": 3,
+				"index": 4,
 				"links": [
 					{
 						"station": "Perth",
