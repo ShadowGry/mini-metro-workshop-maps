@@ -1,0 +1,18 @@
+{
+	"author": "ShadowGry",
+	"id": "perth",
+	"base": "city",
+
+	"harmonies": {
+		"assignments": [0, 0, 0, 0, 0, 0, 0],
+		"weeks": [
+			{
+				"sequences": [["D3", "F3", "G3", "C4"]],
+				"bass": ["D"],
+				"screens": {
+					"GameOver": ["D", "D3", "F3", "A3", "C#4", "E4"]
+				}
+			}
+		]
+	}
+}
